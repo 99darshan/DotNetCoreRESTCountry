@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DotNetRestCountries
 {
 
-    public class CountriesList
+    public class CountryJson
     {
-        public Country[] countries { get; set; }
+        public Country country { get; set; }
     }
 
     public class Country
