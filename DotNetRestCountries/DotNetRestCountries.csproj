@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageId>RestAPI.Countries</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Darshan Adhikari</Authors>
+    <Company />
+    <Product>Countries REST API</Product>
+    <Description>.NET Core Wrapper Library For REST Country API v2.0.5 provided by https://restcountries.eu/ . REST countries API, includes information like common Name, official Name, TLD,two and three letter country code, ISO numeric code, CIOC, currencies, callingCodes, capital, alternative spellings, region, subRegion, borders, etc.</Description>
+    <PackageProjectUrl>https://github.com/99darshan/DotNetCoreRESTCountry</PackageProjectUrl>
+    <PackageTags>REST Countries API</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
