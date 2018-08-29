@@ -1,3 +1,6 @@
+
+![NuGet](https://img.shields.io/nuget/dt/RestAPI.Countries.svg?style=flat-square)
+
 ### .NET Core Wrapper Library For REST Country API v2.0.5 provided by https://restcountries.eu/ . REST countries API, includes information like common Name, official Name, TLD,two and three letter country code, ISO numeric code, CIOC, currencies, callingCodes, capital, alternative spellings, region, subRegion, borders, etc.
 
 # Usage
