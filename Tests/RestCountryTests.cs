@@ -26,7 +26,7 @@ namespace Tests
         [Fact]
         public void AllTest()
         {
-            List<string> filters = new List<string>() { "name" };
+            List<string> filters = new List<string>() { Filters.Name };
             List<Country> allCountriesFiltered = RestCountry.All(filters);
             List<Country> allCountries = RestCountry.All();
             foreach (Country con in allCountries)
@@ -49,7 +49,7 @@ namespace Tests
         [Fact]
         public async void AllTestAsync()
         {
-            List<string> filters = new List<string>() { "name" };
+            List<string> filters = new List<string>() { Filters.Name };
             List<Country> allCountries = await RestCountry.AllAsync(filters);
             List<Country> countries = await RestCountry.AllAsync();
 
