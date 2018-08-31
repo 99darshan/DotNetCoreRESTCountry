@@ -14,7 +14,7 @@ namespace DotNetRestCountries
         private const string _BASEURL = "https://restcountries.eu/rest/v2/";
 
         /// <summary>
-        /// Private method which send HttpGet requests to the RestCountries API
+        /// Send HttpGet requests to the RestCountries API
         /// and Deserializes the JSON response to a List of Country objects.
         /// </summary>
         /// <param name="requestUrl">Restcountries api Endpoint</param>
