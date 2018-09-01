@@ -19,9 +19,7 @@ For Example ```RestCountry.Currency("cop")``` will make the GET Request to the  
 #### Methods defined in RestCountry Class takes in a list of strings as optional second parameter which filters the output of your request to include only the specified fields.
 
 #### Make asynchronous requests to the API using the Async version of methods defined in RestCountry Class.
-```C#
- RestCountry.CurrencyAsync("cop")
- ```
+```RestCountry.CurrencyAsync("cop")```
 
 ```C#
 using DotNetRestCountries; // Reference Nuget Package
