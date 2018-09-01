@@ -66,7 +66,7 @@ namespace TestConsole
 
 ### Credits
 ***
-Thanks to Fayder Florez for developing [REST Countries API] (https://github.com/fayder/restcountries)
+Thanks to Fayder Florez for developing [REST Countries API](https://github.com/fayder/restcountries)
 
 
 ### Related Projects
