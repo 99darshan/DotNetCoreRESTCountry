@@ -71,7 +71,7 @@ Thanks to Fayder Florez for developing [REST Countries API] (https://github.com/
 
 ### Related Projects
 ***
-+ [Countries101] (https://github.com/99darshan/countries101)
++ [Countries101](https://github.com/99darshan/countries101)
 + [gocountries](https://github.com/alediaferia/gocountries)
 + [restcountry](https://github.com/davidesantangelo/restcountry)
 
