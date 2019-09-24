@@ -2,8 +2,8 @@ namespace DotNetRestCountries{
   public static class Filters{
     public const string Name = "name";
     public const string TopLevelDomain = "topLevelDomain";
-    public const string Alpha2Code = "alpha2code";
-    public const string Alpha3Code = "alpha3code";
+    public const string Alpha2Code = "alpha2Code";
+    public const string Alpha3Code = "alpha3Code";
     public const string CallingCodes = "callingCodes";
     public const string Capital = "capital";
     public const string AltSpellings = "altSpellings";
