@@ -94,5 +94,27 @@ namespace Tests
             }
 
         }
+
+        [Fact]
+        public void CodeTest()
+        {
+            List<Country> con = RestCountry.Code("NP");
+
+            foreach(Country c in con)
+            {
+                _NepalResultFull(c);
+            }
+        }
+
+        [Fact]
+        public async void AsyncCodeTest()
+        {
+            List<Country> con = await RestCountry.CodeAsync("NP");
+
+            foreach(Country c in con)
+            {
+                _NepalResultFull(c);
+            }
+        }
     }
 }
