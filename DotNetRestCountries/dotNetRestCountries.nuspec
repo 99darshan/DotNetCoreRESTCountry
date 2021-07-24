@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>RestAPI.Countries</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <title>RestAPI.Countries</title>
     <authors>99darshan</authors>
     <owners>99darshan</owners>
@@ -11,8 +11,8 @@
     <description>
     .NET Core Wrapper Library For REST Country API v2.0.5 provided by https://restcountries.eu/ . REST countries API, includes information like common Name, official Name, TLD,two and three letter country code, ISO numeric code, CIOC, currencies, callingCodes, capital, alternative spellings, region, subRegion, borders, etc.
     </description>
-    <releaseNotes>Updated to dotnet core 3.1 and Bug Fix for Alpha Codes</releaseNotes>
-    <copyright>Copyright 2020</copyright>
+    <releaseNotes>Add dotnetcore 5.0 to target frameworks</releaseNotes>
+    <copyright>Copyright 2021</copyright>
     <tags>Countries Country CountriesAPI RESTCountries</tags>
   </metadata>
 </package>
